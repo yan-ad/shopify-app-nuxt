@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.2.0
+
+[compare changes](https://github.com/yan-ad/shopify-app-nuxt/compare/v1.1.0...v1.2.0)
+
+### 🚀 Enhancements
+
+- Remove old author ([149f954](https://github.com/yan-ad/shopify-app-nuxt/commit/149f954))
+
+### ❤️ Contributors
+
+- Yanuar ([@yan-ad](https://github.com/yan-ad))
+
 ## v1.1.0
 
 [compare changes](https://github.com/kiriminaja/shopify-app-nuxt/compare/v1.0.1...v1.1.0)
