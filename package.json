@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Nuxt module for building Shopify apps — authentication, webhooks, billing, Polaris components, and App Bridge integration",
   "repository": {
-    "url": "git+https://github.com/kiriminaja/shopify-app-nuxt.git"
+    "url": "git+https://github.com/yan-ad/shopify-app-nuxt.git"
   },
   "homepage": "https://shopify-app-nuxt.vercel.app",
   "keywords": [
@@ -15,7 +15,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "author": "KiriminAja",
+  "author": "yan-ad",
   "exports": {
     ".": {
       "types": "./dist/types.d.mts",
@@ -90,28 +90,28 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/kit": "^4.4.2",
+    "@nuxt/kit": "^4.4.8",
     "@shopify/admin-api-client": "^1.1.2",
-    "@shopify/app-bridge-types": "^0.7.0",
+    "@shopify/app-bridge-types": "^0.7.1",
     "@shopify/shopify-api": "^13.0.0",
-    "@shopify/shopify-app-session-storage": "^5.0.0",
-    "@shopify/shopify-app-session-storage-memory": "^6.0.0",
+    "@shopify/shopify-app-session-storage": "^5.0.1",
+    "@shopify/shopify-app-session-storage-memory": "^6.0.1",
     "h3": "^1.15.11",
-    "isbot": "^5.1.37"
+    "isbot": "^5.1.44"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^3.2.4",
-    "@nuxt/eslint-config": "^1.15.2",
+    "@nuxt/devtools": "^4.0.0-alpha.7",
+    "@nuxt/eslint-config": "^1.16.0",
     "@nuxt/module-builder": "^1.0.2",
-    "@nuxt/schema": "^4.4.2",
-    "@nuxt/test-utils": "^4.0.1",
-    "@types/node": "^25.5.2",
+    "@nuxt/schema": "^4.4.8",
+    "@nuxt/test-utils": "^4.0.3",
+    "@types/node": "^26.0.1",
     "changelogen": "^0.6.2",
-    "eslint": "^10.2.0",
-    "nuxt": "^4.4.2",
+    "eslint": "^10.5.0",
+    "nuxt": "^4.4.8",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.4",
-    "vue-tsc": "^3.2.6"
+    "vitest": "^4.1.9",
+    "vue-tsc": "^3.3.5"
   },
   "overrides": {
     "vitest-environment-nuxt": "1.0.1"
